@@ -85,6 +85,11 @@ body {
     padding: 0.25rem;
 }
 
+.card .icon {
+    display: flex;
+    justify-content: right;
+}
+
 .card img {
     padding: 1rem;
 }
