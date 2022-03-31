@@ -22,6 +22,85 @@
 body {
     font-family: "Poppins", sans-serif;
     font-size: 10px;
+    background: var(--vl-gray);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 90%;
+    text-align: center;
+    margin: 2rem 1rem 0 1rem;
+    padding: 1rem;
+}
+
+.header h1 {
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+
+.header h2 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.header p {
+    font-weight: 200;
+    font-size: 0.7rem;
+    color: var(--g-blue);
+    padding: 1rem;
+}
+
+.cards {
+    width: 90%;
+}
+
+.card {
+    background: #ffffff;
+    margin: 1.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 20px #AAAAAA;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.25rem;
+}
+
+.card p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: var(--g-blue);
+    padding: 0.25rem;
+}
+
+.card img {
+    padding: 1rem;
+}
+
+.col-left .card {
+    border-top: 5px solid var(--cyan);
+}
+
+.col-mid .card-red {
+    border-top: 5px solid var(--red);
+}
+
+.col-mid .card-orange {
+    border-top: 5px solid var(--orange);
+}
+
+.col-right .card {
+    border-top: 5px solid var(--blue);
 }
 
 /* Desktop Styling */
