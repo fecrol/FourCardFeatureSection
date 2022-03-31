@@ -27,6 +27,7 @@ body {
 
 .container {
     width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +57,7 @@ body {
     font-weight: 200;
     font-size: 0.9rem;
     color: var(--g-blue);
+    padding-top: 1rem;
 }
 
 .cards {
@@ -69,6 +71,7 @@ body {
     padding: 1rem;
     box-shadow: 0 0 20px var(--vd-blue);
     border-radius: 5px;
+    height: 13rem;
 }
 
 .card h3 {
@@ -111,3 +114,19 @@ body {
 }
 
 /* Desktop Styling */
+@media (min-width: 1100px) {
+    .header {
+        width: 30%;
+    }
+    
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    [class*=col-] {
+        width: calc(100% / 4);
+    }
+}
