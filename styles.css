@@ -38,6 +38,7 @@ body {
     text-align: center;
     margin: 2rem 1rem 0 1rem;
     padding: 1rem;
+    padding-top: 3rem;
 }
 
 .header h1 {
@@ -54,18 +55,19 @@ body {
     font-weight: 200;
     font-size: 0.7rem;
     color: var(--g-blue);
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .cards {
     width: 90%;
+    padding: 0 1rem;
 }
 
 .card {
     background: #ffffff;
     margin: 1.5rem;
     padding: 1rem;
-    box-shadow: 0 0 20px #AAAAAA;
+    box-shadow: 0 0 20px var(--vd-blue);
     border-radius: 5px;
 }
 
@@ -76,8 +78,8 @@ body {
 }
 
 .card p {
-    font-size: 0.6rem;
-    font-weight: 400;
+    font-size: 0.7rem;
+    font-weight: 200;
     line-height: 1rem;
     color: var(--g-blue);
     padding: 0.25rem;
