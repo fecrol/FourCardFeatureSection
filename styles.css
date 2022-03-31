@@ -43,17 +43,17 @@ body {
 
 .header h1 {
     font-weight: 200;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .header h2 {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .header p {
     font-weight: 200;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--g-blue);
     padding: 1rem 2rem;
 }
@@ -72,13 +72,13 @@ body {
 }
 
 .card h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 0.25rem;
 }
 
 .card p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 200;
     line-height: 1rem;
     color: var(--g-blue);
